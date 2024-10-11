@@ -5,9 +5,9 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   plugins: [react()],
   base: "./",
-  build: {
-    rollupOptions: {
-      external: ['dompurify'],
-    },
-  },
+  // build: {
+  //   rollupOptions: {
+  //     external: ['dompurify'],
+  //   },
+  // },
 })
