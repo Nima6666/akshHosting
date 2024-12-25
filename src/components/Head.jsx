@@ -96,7 +96,7 @@ const Head = () => {
                           to="/infrastructure"
                           onClick={closeNav}
                         >
-                          Akshara Infrastructure
+                          Aksharaa Infrastructure
                         </Link>
                       </li>
                       <li>
@@ -188,7 +188,7 @@ const Head = () => {
                           to="/academics/high"
                           onClick={closeNav}
                         >
-                          High School
+                          Senior School
                         </Link>
                       </li>
 
@@ -225,7 +225,7 @@ const Head = () => {
 
                   <li className="nav-item  py-2  ">
                     <Link className="nav-link" to="/akshara-mun" onClick={closeNav}>
-                      Akashara MUN
+                      Aksharaa MUN
                     </Link>
                   </li>
 

@@ -56,52 +56,52 @@ const Blog = () => {
   const blogData = [
     {
       id: 1,
-      title: "Annual Functions",
-      date: "2024-Mar-15",
-      des: "Our School celebrating National Parent Involvement Day on Dec 3.",
+      title: "PTM",
+      date: "2081-Poush-13",
+      des: "2nd Diagnostic Test",
     },
-    {
-      id: 2,
-      title: "Exhibition's day",
-      date: "2024-May-12",
-      des: "Year 6 pupils are invited to join us for a Taster Day.",
-    },
-    {
-      id: 3,
-      title: "Robotics Training",
-      date: "2024-Apr-10",
-      des: "Celebrating National Parent Involvement Day on December 3.",
-    },
-    {
-      id: 4,
-      title: "Online Learning Tips",
-      date: "2024-Jul-20",
-      des: "Year 6 pupils are invited to join us for a Taster Day.",
-    },
-    {
-      id: 5,
-      title: "Exhibition's day",
-      date: "2024-sep-29",
-      des: "Year 6 pupils are invited to join us for a Taster Day.",
-    },
-    {
-      id: 6,
-      title: "Training Corner",
-      date: "2024-apr-06",
-      des: "Year 6 pupils are invited to join us for a Taster Day.",
-    },
-    {
-      id: 7,
-      title: "Robotics Training",
-      date: "2024-feb-01",
-      des: "Year 6 pupils are invited to join us for a Taster Day.",
-    },
-    {
-      id: 8,
-      title: "Farewell Program",
-      date: "2024-Jan-10",
-      des: "Year 6 pupils are invited to join us for a Taster Day.",
-    },
+    // {
+    //   id: 2,
+    //   title: "Exhibition's day",
+    //   date: "2024-May-12",
+    //   des: "Year 6 pupils are invited to join us for a Taster Day.",
+    // },
+    // {
+    //   id: 3,
+    //   title: "Robotics Training",
+    //   date: "2024-Apr-10",
+    //   des: "Celebrating National Parent Involvement Day on December 3.",
+    // },
+    // {
+    //   id: 4,
+    //   title: "Online Learning Tips",
+    //   date: "2024-Jul-20",
+    //   des: "Year 6 pupils are invited to join us for a Taster Day.",
+    // },
+    // {
+    //   id: 5,
+    //   title: "Exhibition's day",
+    //   date: "2024-sep-29",
+    //   des: "Year 6 pupils are invited to join us for a Taster Day.",
+    // },
+    // {
+    //   id: 6,
+    //   title: "Training Corner",
+    //   date: "2024-apr-06",
+    //   des: "Year 6 pupils are invited to join us for a Taster Day.",
+    // },
+    // {
+    //   id: 7,
+    //   title: "Robotics Training",
+    //   date: "2024-feb-01",
+    //   des: "Year 6 pupils are invited to join us for a Taster Day.",
+    // },
+    // {
+    //   id: 8,
+    //   title: "Farewell Program",
+    //   date: "2024-Jan-10",
+    //   des: "Year 6 pupils are invited to join us for a Taster Day.",
+    // },
   ];
 
   const scheduleData = [
@@ -414,9 +414,9 @@ const Blog = () => {
                   <div className="col-md-6 mb-4" key={item.id}>
                     <div className="d-flex justify-content-center align-items-center p-3 border">
                       <div className="calenderBox d-flex justify-content-center align-items-center flex-column">
-                        <span className="fs-1">{item.date.slice(9, 11)}</span>
+                        <span className="fs-1">{item.date.slice(11, 15)}</span>
                         <span className="calen-date">
-                          {item.date.slice(5, 8)}
+                          {item.date.slice(5, 10)}
                         </span>
                       </div>
                       <div className="calender-text d-flex flex-column justify-content-center align-items-start ms-3 flex-fill">
@@ -484,10 +484,10 @@ const Blog = () => {
                             <h5 className="card-title text-dark text-center">
                               {project.title}
                             </h5>
-                            <p className="card-text">
+                            {/* <p className="card-text">
                               {project.description.slice(0,60)}
-                            </p>
-                            <button className="border-0 ">View More</button>
+                            </p> */}
+                            <button className="border-0 px-4 btn bg-success text-light">View More</button>
                           </div>
                         </div>
                       </Link>
